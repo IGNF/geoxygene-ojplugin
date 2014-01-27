@@ -1,0 +1,19 @@
+<workbench>
+	<!-- Appariement -->
+	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.appariement.AppariementReseauxPlugIn</plug-in>
+	
+	<!-- Carte topo -->
+	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.cartetopo.CarteTopoCreationPlugIn</plug-in>
+	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.cartetopo.CarteTopoNoeudValuePlugIn</plug-in>
+	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.cartetopo.CarteTopoFaceCirculairePlugIn</plug-in>
+	
+	<!-- Quality -->
+	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.quality.PlugInComparison</plug-in>
+	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.quality.PlugInEstim</plug-in>
+	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.quality.PlugInRepresentationScaleEstimation</plug-in>
+	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.quality.PlugInCompute2D5Shape</plug-in>
+	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.quality.PlugInSimulation</plug-in>
+	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.quality.PlugInMountainGridDetection</plug-in>
+	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.quality.PlugInUrbanDetection</plug-in>
+ 	
+</workbench>

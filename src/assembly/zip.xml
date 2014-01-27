@@ -1,0 +1,67 @@
+<assembly
+	xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
+
+	<id>zip</id>
+
+	<!-- Creation of the zip archive containing the needed files -->
+	<formats>
+		<format>zip</format>
+	</formats>
+
+	<fileSets>
+		
+		<!-- Add geoxygene-openjump plugin JAR -->
+		<fileSet>
+			<directory>target</directory>
+			<outputDirectory></outputDirectory>
+			<includes>
+				<include>*.jar</include>
+			</includes>
+		</fileSet>
+
+		<!-- Add geoxygene-api.jar dependencies -->
+		<fileSet>
+			<directory>${path.geoxygene}\geoxygene-api\target\</directory>
+			<outputDirectory></outputDirectory>
+			<includes>
+				<include>geoxygene-api-${geoxygene.noyau.version}.jar</include>
+			</includes>
+		</fileSet>
+		<!-- Add geoxygene-spatial.jar dependencies -->
+		<fileSet>
+			<directory>${path.geoxygene}\geoxygene-spatial\target\</directory>
+			<outputDirectory></outputDirectory>
+			<includes>
+				<include>geoxygene-spatial-${geoxygene.noyau.version}.jar</include>
+			</includes>
+		</fileSet>
+		<!-- Add geoxygene-feature.jar dependencies -->
+		<fileSet>
+			<directory>${path.geoxygene}\geoxygene-feature\target\</directory>
+			<outputDirectory></outputDirectory>
+			<includes>
+				<include>geoxygene-feature-${geoxygene.noyau.version}.jar</include>
+			</includes>
+		</fileSet>
+		<!-- Add geoxygene-contrib.jar dependencies -->
+		<fileSet>
+			<directory>${path.geoxygene}\geoxygene-contrib\target\</directory>
+			<outputDirectory></outputDirectory>
+			<includes>
+				<include>geoxygene-contrib-${geoxygene.noyau.version}.jar</include>
+			</includes>
+		</fileSet>
+		<!-- Add geoxygene-sig3d.jar dependencies -->
+		<fileSet>
+			<directory>${path.geoxygene}\geoxygene-sig3d\target\</directory>
+			<outputDirectory></outputDirectory>
+			<includes>
+				<include>geoxygene-sig3d-${geoxygene.noyau.version}.jar</include>
+			</includes>
+		</fileSet>
+	
+	</fileSets>
+</assembly>
+

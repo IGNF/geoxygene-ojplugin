@@ -1,0 +1,28 @@
+
+-----------------  How to install   -----------------
+
+Set up OpenJump as a prerequisite.
+
+1. Download the plugin
+
+2. Copy the whole folder contents into your 
+    lib/ext directory of your OpenJump installation.
+
+3. Start openjump. 
+
+4. You will now see a new item menu in "Extensions" called "GeOxygene" 
+
+If any problem encountered, you can report it
+	on the GeOxygene users list :
+	oxygene-project-users (at) lists.sourceforge.net	 
+
+
+-----------------  To use dema data   -----------------
+
+You can download demo data here :
+
+* Network to be matched :
+    https://svn.code.sf.net/p/oxygene-project/code/main/trunk/geoxygene-data/ign-echantillon/bdcarto/BDC_3-1_SHP_LAMB93_X072-ED111/RESEAU_ROUTIER/TRONCON_ROUTE*
+
+* Reference network :
+    https://svn.code.sf.net/p/oxygene-project/code/main/trunk/geoxygene-data/ign-echantillon/bdtopo/72_BDTOPO_shp/BDT_2-0_SHP_LAMB93_X062-ED111/A_RESEAU_ROUTIER/ROUTE*
