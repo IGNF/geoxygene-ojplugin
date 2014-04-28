@@ -209,19 +209,14 @@
 	<!-- =========================================================== -->
 	<repositories>
 		<repository>
-			<id>Central</id>
-			<name>Central Repository</name>
-			<url>https://dionysos2.ign.fr/nexus-webapp-1.4.1/content/repositories/central</url>
-		</repository>
-		<repository>
 			<id>snapshots</id>
 			<name>Nexus Snapshots Repository</name>
-			<url>https://dionysos2/nexus-webapp-1.4.1/content/repositories/snapshots</url>
+			<url>https://forge-cogit.ign.fr/nexus/content/repositories/snapshots</url>
 		</repository>
 		<repository>
 			<id>releases</id>
 			<name>Internal Releases</name>
-			<url>https://dionysos2.ign.fr/nexus-webapp-1.4.1/content/repositories/releases/</url>
+			<url>https://forge-cogit.ign.fr/nexus/content/repositories/releases/</url>
 		</repository>
 		<repository>
 			<id>Imagej</id>
@@ -380,12 +375,12 @@
         <repository>
             <id>releases</id>
             <name>Nexus Releases Repository</name>
-            <url>https://dionysos2/nexus-webapp-1.4.1/content/repositories/releases</url>
+            <url>https://forge-cogit.ign.fr/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>Nexus Snapshots Repository</name>
-            <url>https://dionysos2/nexus-webapp-1.4.1/content/repositories/snapshots/</url>
+            <url>https://forge-cogit.ign.fr/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
         <site>
             <id>oxygene-project.sf.net</id>
