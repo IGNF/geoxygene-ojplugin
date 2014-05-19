@@ -16,4 +16,12 @@
 	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.quality.PlugInMountainGridDetection</plug-in>
 	<plug-in>fr.ign.cogit.geoxygene.ojplugin.plugin.quality.PlugInUrbanDetection</plug-in>
  	
+ 	<!-- Loader -->
+ 	<plug-in>fr.ign.cogit.appli.commun.interfaceJump.Chargement</plug-in>
+	<plug-in>fr.ign.cogit.appli.commun.interfaceJump.ChargementSansLien</plug-in>
+	<!-- 
+		<plug-in>fr.ign.cogit.appli.commun.interfaceJump.Attributs</plug-in>
+		<plug-in>fr.ign.cogit.appli.commun.interfaceJump.Proprietes</plug-in>
+	 -->
+
 </workbench>
