@@ -340,6 +340,17 @@
 		</dependency>
 		
 		<dependency>
+			<groupId>org.apache</groupId>
+			<artifactId>ojb</artifactId>
+			<version>1.0.rc6</version>
+			<classifier>COGIT</classifier>
+		</dependency>
+		<dependency>
+			<groupId>fr.ign.cogit</groupId>
+			<artifactId>geoxygene-database</artifactId>
+			<version>${geoxygene.noyau.version}</version>
+		</dependency>
+		<dependency>
 			<groupId>fr.ign.cogit</groupId>
 			<artifactId>geoxygene-appli</artifactId>
 			<version>${geoxygene.noyau.version}</version>
