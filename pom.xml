@@ -9,7 +9,7 @@
 	<!-- ==================================================== -->
 	<groupId>fr.ign.cogit</groupId>
 	<artifactId>geoxygene-ojplugin</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.9-SNAPSHOT</version>
 
 	<name>Plugin GeOxygene pour OpenJump.</name>
 	<description>
@@ -42,7 +42,7 @@
 	<!-- =========================================================== -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<geoxygene.noyau.version>1.7-SNAPSHOT</geoxygene.noyau.version>
+		<geoxygene.noyau.version>1.9-SNAPSHOT</geoxygene.noyau.version>
 		<openjump.version>1.5.2-r2930</openjump.version>
 		<path.geoxygene>D:\WORKSPACE\geoxygene-cogit\modules\noyau\</path.geoxygene>
 		<path.openjump>D:\MesProgrammes\OpenJump\OpenJUMP-1.6.3-r3576-CORE\lib\ext\</path.openjump>
@@ -409,7 +409,7 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.ign.cogit</groupId>
-			<artifactId>geoxygene-sig3d</artifactId>
+			<artifactId>geoxygene-sig3d-gui</artifactId>
 			<version>${geoxygene.noyau.version}</version>
 		</dependency>
 
